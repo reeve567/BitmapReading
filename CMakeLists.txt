@@ -3,4 +3,4 @@ project(BitmapReading)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BitmapReading bitmap.cpp)
+add_executable(BitmapReading src/bitmap.cpp src/Pixel.cpp src/BitmapFile.cpp)
